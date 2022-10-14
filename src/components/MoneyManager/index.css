@@ -1,0 +1,189 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+
+.card-heading {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 900px;
+  max-width: 1200px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.ap-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.ap-title,
+.ap-amount,
+.ap-type {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .card-heading {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .card-heading {
+    width: 300px;
+  }
+}
+
+.heading {
+  color: #475569;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.card-text {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-sp {
+  color: #0b69ff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.money-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 600px;
+  max-width: 1200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 12px;
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  width: 600px;
+  max-width: 900px;
+}
+
+.label {
+  color: #cbd5e1;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.input {
+  border: 1px solid #cbd5e1;
+  padding: 5px 14px;
+  outline: none;
+}
+
+.btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 5px 14px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.tr-head {
+  font-size: 16px;
+  color: #000000;
+  margin: 15px;
+  align-self: flex-start;
+}
+
+.tr-history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 600px;
+  max-width: 900px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd5e1;
+}
+
+.tr-container {
+  width: 100%;
+}
+
+.tr-table {
+  padding-left: 0;
+  margin: 0px;
+}
+
+.tr-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  margin: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .tr-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .tr-history {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card-heading {
+    margin-top: 20px;
+  }
+  .form {
+    width: 500px;
+  }
+  .tr-history {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-heading {
+    margin-top: 20px;
+  }
+  .form {
+    width: 300px;
+  }
+  .tr-history {
+    width: 300px;
+  }
+}

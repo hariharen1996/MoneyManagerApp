@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.tr-text {
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.del-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.del-img {
+  width: 15px;
+}
+
+.tr-lists {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  list-style: none;
+}
